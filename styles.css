@@ -1,0 +1,132 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.4; /* Ajuste global para o espaço entre linhas */
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background:  #f1ae61;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: right; /* Alinha o texto e links à direita */
+}
+
+.container h1 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 20px;
+    line-height: 1.2; /* Espaçamento entre linhas do título */
+}
+
+.container p {
+    margin-bottom: 8px; /* Reduz o espaço abaixo dos parágrafos */
+    line-height: 1.4; /* Ajuste do espaço entre linhas dos parágrafos */
+}
+
+.container a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Justificar o texto dos parágrafos dentro das seções */
+.section p, .section li {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Estilizar as listas */
+.section ul {
+    list-style-type: none; /* Remove os marcadores padrão */
+    padding-left: 0; /* Remove o recuo padrão */
+}
+
+.section li {
+    margin-bottom: 10px; /* Espaço entre itens da lista */
+}
+
+/* Estilizar sub-listas */
+.section ul ul {
+    margin-left: 20px; /* Adiciona recuo para sub-listas */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li strong {
+    color: #2c3e50;
+}
+
+ul li ul {
+    margin-left: 20px;
+}
+
+ul li ul li {
+    margin-bottom: 5px;
+}
+
+.container p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color:  #f1ae61; /* Cor de fundo do rodapé */
+    padding: 20px; /* Adiciona um pouco mais de espaço */
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaço entre os ícones */
+    margin-bottom: 10px; /* Espaço entre os ícones e a frase */
+}
+
+.social-icons a {
+    color: #333; /* Cor dos ícones */
+    text-decoration: none;
+    font-size: 24px; /* Tamanho dos ícones */
+}
+
+.social-icons a:hover {
+    color: #3498db; /* Cor dos ícones ao passar o mouse */
+}
+
+footer p {
+    margin: 0; /* Remove margens extras da frase */
+    font-weight: bold;
+    color: #333; /* Cor do texto da frase */
+}
+
